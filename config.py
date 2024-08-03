@@ -13,4 +13,4 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://vasudurairam:vasudurai123@c
 
 OWNER_ID = int(getenv("OWNER_ID", 6916055129))
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/universee_we_are")
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/6b8905e7e063a96bc6030.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/7f02fa86d8b5f924be21b.jpg")
