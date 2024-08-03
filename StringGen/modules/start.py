@@ -10,7 +10,6 @@ async def f_start(_, message: Message):
     response = await message.reply_photo(
         photo=START_IMG_URL,
         caption=f"ʜᴇʏ {message.from_user.first_name},\n\n๏ ᴛʜɪs ɪs {Anony.mention},\nAɴ ᴏᴘᴇɴ sᴏᴜʀᴄᴇ sᴛʀɪɴɢ sᴇssɪᴏɴ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ, ᴡʀɪᴛᴛᴇɴ ɪɴ ᴩʏᴛʜᴏɴ ᴡɪᴛʜ ᴛʜᴇ ʜᴇʟᴩ ᴏғ ᴩʏʀᴏɢʀᴀᴍ.",
-        reply_markup=keyboard,
-        disable_web_page_preview=True,
+        reply_markup=keyboard
     )
     await add_served_user(message.from_user.id)
