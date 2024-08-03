@@ -5,12 +5,9 @@ from config import SUPPORT_CHAT
 
 keyboard = InlineKeyboardMarkup(
     [
-        [InlineKeyboardButton(text="ɢᴇɴᴇʀᴀᴛᴇ sᴇssɪᴏɴ", callback_data="gensession")],
+        [InlineKeyboardButton(text="𝙂𝙚𝙣𝙚𝙧𝙖𝙩𝙚 𝙔𝙤𝙪𝙧 𝙨𝙩𝙧𝙞𝙣𝙜", callback_data="gensession")],
         [
-            InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url=SUPPORT_CHAT),
-            InlineKeyboardButton(
-                text="sᴏᴜʀᴄᴇ", url="https://github.com/AnonymousX1025/StringGenBot"
-            ),
+            InlineKeyboardButton(text="𝙎𝙪𝙥𝙥𝙤𝙧𝙩", url=SUPPORT_CHAT),
         ],
     ]
 )
@@ -18,13 +15,13 @@ keyboard = InlineKeyboardMarkup(
 gen_key = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(text="ᴩʏʀᴏɢʀᴀᴍ v1", callback_data="pyrogram1"),
-            InlineKeyboardButton(text="ᴩʏʀᴏɢʀᴀᴍ v2", callback_data="pyrogram"),
+            InlineKeyboardButton(text="𝙋𝙮𝙧𝙤𝙜𝙧𝙖𝙢 𝙑1", callback_data="pyrogram1"),
+            InlineKeyboardButton(text="𝙋𝙮𝙧𝙤𝙜𝙧𝙖𝙢 𝙑2", callback_data="pyrogram"),
         ],
-        [InlineKeyboardButton(text="ᴛᴇʟᴇᴛʜᴏɴ", callback_data="telethon")],
+        [InlineKeyboardButton(text="𝙏𝙚𝙡𝙚𝙩𝙝𝙤𝙣", callback_data="telethon")],
     ]
 )
 
 retry_key = InlineKeyboardMarkup(
-    [[InlineKeyboardButton(text="ᴛʀʏ ᴀɢᴀɪɴ", callback_data="gensession")]]
+    [[InlineKeyboardButton(text="𝙏𝙧𝙮 𝙖𝙜𝙖𝙞𝙣", callback_data="gensession")]]
 )
